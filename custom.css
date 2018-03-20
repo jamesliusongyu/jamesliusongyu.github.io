@@ -1,0 +1,124 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+  height: 100%;
+}
+
+.button {
+  border-radius: 100px;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.img-clickable:hover {
+  opacity: 1.0;
+}
+
+.img-clickable {
+  opacity: 0.8;
+}
+
+.img-profile {
+  padding: 1em 1em;
+  border-radius: 60%;
+  max-width: 200px;
+}
+
+.hideme {
+  opacity:0;
+}
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footer {
+  padding: 2rem 1rem;
+}
+
+.footer i {
+  margin: 0rem 1rem;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  min-height: 100%;
+  text-align: center;
+}
+
+.section-heading {
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+/* Intro
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.description {
+  padding-top: 15%;
+}
+
+/* Work
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*.work {
+  background-color: black;
+  color: white;
+}*/
+
+.datetime {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 400px) {
+  .job-description {
+    padding-top: 2rem;
+  }
+}
+
+.job-description h2 {
+  display: inline;
+}
+
+@media (min-width: 600px) {
+  .job-image {
+    padding: 2em 1em;
+    height: auto;
+  }
+
+  .job-description {
+    text-align: left;
+  }
+}
+
+.job-image {
+  padding: 1em 1em;
+}
+
+.job-description .button-white {
+  background-color: white;
+  color: black;
+}
+
+.workplace {
+  display: inline-block
+}
+
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.proj-title {
+  padding: 2rem 0rem;
+  text-align: left;
+}
+
+.proj-title h3 {
+  display: inline;
+}
+
+.proj-description {
+  text-align: left;
+}
+
+.proj-button {
+  text-align: center;
+}
+
+.proj-image {
+  padding: 2em 1em;
+}
